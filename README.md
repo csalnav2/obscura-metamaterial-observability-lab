@@ -8,19 +8,19 @@ Observability Benchmark for Simulated Cloaking Under Reduced-order AdaptationTag
   <img src="assets/obscura_public_overview.png" alt="OBSCURA public synthetic dashboard overview" width="100%">
 </p>
 
-[!IMPORTANT]This is the public showcase edition. It does not contain the privatesimulation engine, constitutive parameter maps, calibration constants,complete controller objective, optimizer guards, stress schedule, raw privatetelemetry, hosted research-agent stack, credentials, or full Colab notebook.The bundled curves are synthetic and cannot support a scientific performanceclaim.
+[!IMPORTANT]This is the public showcase edition. It does not contain the private simulation engine, constitutive parameter maps, calibration constants,complete controller objective, optimizer guards, stress schedule, raw privatetelemetry, hosted research-agent stack, credentials, or full Colab notebook.The bundled curves are synthetic and cannot support a scientific performance claim.
 
 Project description
 
-OBSCURA is a reduced-order, time-dependent programmable-metamaterial controlbenchmark that studies simultaneous suppression of classical detectorobservability and quantum parameter sensitivity under explicit spectral,energy, lifecycle, and channel constraints.
+OBSCURA is a reduced-order, time-dependent programmable-metamaterial control benchmark that studies simultaneous suppression of classical detector observability and quantum parameter sensitivity under explicit spectral,energy, lifecycle, and channel constraints.
 
 A scientifically careful public description is:
 
-OBSCURA is a time-dependent adaptive-control simulation that suppressesclassical capture and shadow observability while reducing per-probe quantumFisher information below configured thresholds, producing simulateddual-observability concealment within the declared model.
+OBSCURA is a time-dependent adaptive-control simulation that suppressesclassical capture and shadow observability while reducing per-probe quantumFisher information below configured thresholds, producing simulated dual-observability concealment within the declared model.
 
 The required qualifier is equally important:
 
-OBSCURA is a reduced-order feasibility benchmark, not an experimental oruniversal demonstration of electromagnetic invisibility.
+OBSCURA is a reduced-order feasibility benchmark, not an experimental or universal demonstration of electromagnetic invisibility.
 
 The phrase dual observability refers to two model families:
 
@@ -32,7 +32,7 @@ Low QFI does not mean that every possible quantum detector fails. It means these
 
 Why the public repository is deliberately limited
 
-A public GitHub repository is excellent for visibility, critique, and findingcollaborators. It is a poor vault. A shortened copy of a 50,000-line researchengine can still expose architecture, objective structure, calibration logic,and enough relationships to reconstruct the important parts.
+A public GitHub repository is excellent for visibility, critique, and finding collaborators. It is a poor vault. A shortened copy of a 50,000-line researchengine can still expose architecture, objective structure, calibration logic,and enough relationships to reconstruct the important parts.
 
 This repository therefore publishes the presentation plane, not theinvention plane.
 
@@ -125,7 +125,7 @@ Open public_output/obscura_public_showcase.html in a browser.
 python scripts/audit_public_release.py .
 pytest
 
-The audit fails when it detects private artifact hashes, oversized notebookcells, core private implementation identifiers, credentials, private keys, ormagic-access URLs.
+The audit fails when it detects private artifact hashes, oversized notebook cells, core private implementation identifiers, credentials, private keys, ormagic-access URLs.
 
 Public threshold convention
 
@@ -191,7 +191,7 @@ Absorption does not become the hidden mechanism of apparent concealment.
 
 Improvement persists over time rather than appearing at one favorable sample.
 
-Display smoothing may be used only for causal presentation. Raw exported valuesmust remain unchanged, and visual filtering must never be presented as physicalevidence.
+Display smoothing may be used only for causal presentation. Raw exported values must remain unchanged, and visual filtering must never be presented as physicalevidence.
 
 What is withheld
 
